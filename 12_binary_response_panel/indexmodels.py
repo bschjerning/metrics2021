@@ -8,6 +8,7 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 import mestim as M
 
+
 def panel_setup(df, yvar, xvar, groupvar): 
     Nobs, k=df[xvar].shape                     # number of observations and explanatory variables 
     T=np.array(df.groupby(groupvar).size());   # nx1 vector of observation counts for each group
@@ -193,9 +194,9 @@ def quad_xw(n=10, a=-1, b=1):
     x=(xi+1)*(b-a)/2+a
     return x,w
 
-def addlag(df, var, t='period', lg=1):
+def addlag(df, var, tid='period', t0=0, lg=1):
     ylag=df[var].shift(lg)
-    ylag[df[t]==0]=np.nan
+    ylag[df[tid]==t0]=np.nan
     df['l' + str(lg)+'.'+var]=ylag
     return df
 
