@@ -1,5 +1,5 @@
 ## Multinomial response models - Conditional Logit and Multinomial Logit  
-The notebook [multinomial_response.ipynb](https://github.com/bschjerning/metrics2021/blob/main/14_%20multinomial_response/multinomial_response.ipynb) presents Conditional Logit and Multinomial Logit models based on chapter 16 in Wooldridge's (2010) and also draws upon Chapter 3 on Logit in Kenneth Trains textbook "Discrete Choice Models with simulation"
+The notebook [multinomial_response.ipynb](https://github.com/bschjerning/metrics2021/blob/main/14_multinomial_response/multinomial_response.ipynb) presents Conditional Logit and Multinomial Logit models based on chapter 16 in Wooldridge's (2010) and also draws upon Chapter 3 on Logit in Kenneth Trains textbook "Discrete Choice Models with simulation"
 
 The material presented in 4 videotaped lectures available on YouTube
 
