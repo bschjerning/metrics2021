@@ -13,4 +13,4 @@ The material presented in 5 videotaped lectures available on YouTube
 2. [Specification testing (15:42 min)](https://youtu.be/eRkozJlu2xA)
 3. [Powell's censored least absolute deviation estimator (CLAD)(13:20 min)](https://youtu.be/SmiBmW7oSfU)
 4. [Computational issues - smoothing and ILPA (44:45 min)](https://youtu.be/HE6_WR0XrTs)
-5. [Bootstrapping standard errors (14:43 min)](https://youtu.be/3dAO5pMEOA8)
+5. [Bootstrapping standard errors (34:22 min)](https://youtu.be/3dAO5pMEOA8)
