@@ -1,4 +1,4 @@
-## Specification issues is models for censored regression and corner solution outcomes and estimation under weaker assumptions
+## Specification issues for censored regression and corner solution outcomes and estimation under weaker assumptions
 
 The notebook [clad.ipynb](https://github.com/bschjerning/metrics2021/blob/main/17_censored_regrssion_clad/clad.ipynb) discuss the consequences of misspecifications of the Tobit model such as neglected heterogeneity, non-normality and heteroscedasticity. We further discuss how to test for these misspecifications (using conditional moments tests) and how to estimate censored regression models under weaker assumptions. 
 
