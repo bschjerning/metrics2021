@@ -3,16 +3,17 @@ The notebook [sample_selectionn.ipynb](https://github.com/bschjerning/metrics202
 
 We first consider sample selection in regression models such as
 
-$$	y_{1}=x_{1}\beta _{1}+u_{1},\quad \quad E( u_{1}|x_{1}) =0 $$
+<img src="https://render.githubusercontent.com/render/math?math=y_{1}=x_{1}\beta _{1}+u_{1},\quad \quad E( u_{1}|x_{1}) =0">
 
-where $y_{1}$ or $x_{1}$ or both are unobserved when some selection indicator $s=0$
+
+where y_1 or x_1 or both are unobserved when some selection indicator s=0
 
 We consider 5 cases: 
-1. $s$ is a function of $x_{1}$ only
-1. $s$ is independent of $x_{1}$, and $u_{1}$
-1. $s=1( a_{1} < y_{1} < a_{2}) $ (truncation)
-1. $s=1( x\delta_{2}+v_{2}>0) $ (discrete response selection with dependence between $u_{1}$ and $v_{2}$)
-1. $y_{2}=\max (0,x\delta_{2}+v_{2}) $ and $s=1(y_{2}>0)$ (Tobit selection with dependence between $u_{1}$ and $v_{2}$ - implies more structure)
+1. s is a function of x_1 only
+1. s is independent of x_1, and u_1
+1. s=1(a_1 < y_1 < a_2) (truncation)
+1. s=1(x delta_2+v_2>0) (discrete response selection with dependence between u_1 and v_2)
+1. y_2=max(0,x delta_2+v_2) and s=1(y_2>0) (Tobit selection with dependence between u_1 and v_2 - implies more structure)
 
 Case 1-3 and introcution is presented in video 1 and case 4-5 is presneted in video 2 (links to videos are given below) 
 
